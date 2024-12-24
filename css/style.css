@@ -1,0 +1,174 @@
+.result-summary {
+    width: 144rem;
+    height: 108rem;
+    background-color: #ECF2FF;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20rem;
+}
+
+.result-box {
+    width: 73.6rem;
+    height: 51.2rem;
+    background-color: #ffffff;
+    border-radius: 3.2rem;
+    display: flex;
+    overflow: hidden;
+    gap: 3rem;
+}
+
+.results {
+    color: #ffffff;
+    width: 36.8rem;
+    border-radius: 1.8rem;
+    background-image: linear-gradient(to bottom, #7755FF, #6943FF, #2F2CE9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+}
+
+.result-top {
+    width: 13.5rem;
+    height: 2.1rem;
+    color: rgba(255, 255, 255, 0.433);
+}
+
+.result-top h1 {
+    font-size: 2rem;
+}
+
+.result-middle {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-color: #1125d657;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.result-marks {
+    width: 8.1rem;
+    height: 9.9rem;
+}
+
+.result-marks span {
+    display: block;
+}
+
+.nmbr {
+    font-size: 6rem;
+}
+
+.per {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.433);
+
+}
+
+.result-bottom {
+    width: 26rem;
+    height: 13.4rem;
+}
+
+.result-bottom span {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.result-bottom p {
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.84);
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3rem 2rem;
+}
+
+.summary h1 {
+    color: #303B59;
+    font-size: 2.5rem;
+}
+
+.summary-box {
+    width: 28.8rem;
+    height: 27.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.col {
+    width: 28.8rem;
+    height: 5.6rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.summary-left {
+    font-size: 2.2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 14rem;
+
+}
+
+.reaction {
+    color: #FF5555;
+}
+
+.memory {
+    color: #FFB21E;
+}
+
+.verbal {
+    color: #00BB8F;
+}
+
+.visual {
+    color: #1125D6;
+}
+
+.summary-right {
+    color: #333;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+
+}
+
+strong {
+    font-size: 2.3rem;
+    color: #303B59;
+}
+
+.summary-btn {
+    width: 28.8rem;
+    height: 5.6rem;
+    background-color: #303B59;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.attribution{
+    font-size: 3rem;
+}
