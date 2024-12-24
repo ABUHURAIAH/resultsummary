@@ -1,18 +1,26 @@
-@media(max-width:29em){
-    .result-summary{
+@media(max-width:29em) {
+    .result-summary {
         margin: 0;
-        justify-content: center;
+        /* justify-content: center; */
         /* align-items: center; */
-        max-width: 45rem;
+        width: fit-content;
         gap: 0;
+        height: fit-content;
 
     }
-    .result-box{
+
+    .result-box {
         flex-direction: column;
         height: 100%;
         width: fit-content;
     }
+
     .attribution {
         display: none;
+    }
+
+    .summary {
+        height: fit-content;
+        padding-bottom: 0;
     }
 }
