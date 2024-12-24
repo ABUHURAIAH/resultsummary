@@ -1,12 +1,10 @@
-@media(max-width:21em) {
+@media(max-width:29em) {
    
     html{
         width: fit-content;
     }
     .result-summary {
         margin: 0;
-        /* justify-content: center; */
-        /* align-items: center; */
         width: fit-content;
         gap: 0;
         height: fit-content;
